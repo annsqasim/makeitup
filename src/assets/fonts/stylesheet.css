@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-LightItalic.woff2') format('woff2'),
+        url('MaisonNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-BoldItalic.woff2') format('woff2'),
+        url('MaisonNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Medium.woff2') format('woff2'),
+        url('MaisonNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-MediumItalic.woff2') format('woff2'),
+        url('MaisonNeue-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Book.woff2') format('woff2'),
+        url('MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-BookItalic.woff2') format('woff2'),
+        url('MaisonNeue-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Light.woff2') format('woff2'),
+        url('MaisonNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Bold.woff2') format('woff2'),
+        url('MaisonNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-MediumItalic.woff2') format('woff2'),
+        url('NoeDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-BoldItalic.woff2') format('woff2'),
+        url('NoeDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-Bold.woff2') format('woff2'),
+        url('NoeDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay.woff2') format('woff2'),
+        url('NoeDisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-Medium.woff2') format('woff2'),
+        url('NoeDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-BlackItalic.woff2') format('woff2'),
+        url('NoeDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-Black.woff2') format('woff2'),
+        url('NoeDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noe Display';
+    src: url('NoeDisplay-Italic.woff2') format('woff2'),
+        url('NoeDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
