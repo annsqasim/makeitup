@@ -2,7 +2,9 @@ import React from "react";
 import Dashboard from "./containers/DashboardContainer";
 import Details from "./containers/DetailsContainer";
 import Register from "./containers/RegisterContainer";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./assets/fonts/stylesheet.css";
+import "react-owl-carousel2/src/owl.carousel.css";
 
 function App() {
   return (

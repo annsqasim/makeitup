@@ -56,7 +56,7 @@ export default function SimpleModal(props) {
       <ForgetPassword to="/">Forget Password</ForgetPassword>
       <FormSubmitButton>Login</FormSubmitButton>
       <SignupWrap>
-        Don’t have an account? <a href="">Join free</a>
+        Don’t have an account? <a href="/">Join free</a>
       </SignupWrap>
     </LoginWrap>
   );
