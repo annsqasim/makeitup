@@ -8,11 +8,22 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import UploadIcon from "../../assets/Icons/UploadIcon";
+import Login from "../Login";
 
 import { NavBar } from "./Header.styled";
 
 export default function TopBar() {
   const handleProfileMenuOpen = () => {};
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <NavBar position="sticky">
@@ -25,7 +36,11 @@ export default function TopBar() {
             </Button>
           </div>
           <div>
-            <IconButton aria-label="show 4 new mails" color="inherit">
+            <IconButton
+              onClick={handleOpen}
+              aria-label="show 4 new mails"
+              color="inherit"
+            >
               <Badge badgeContent={4} color="secondary">
                 <MailIcon />
               </Badge>
@@ -44,6 +59,7 @@ export default function TopBar() {
             >
               <AccountCircle />
             </IconButton>
+            <Login open={open} handleClose={handleClose} />
           </div>
         </Grid>
       </Container>

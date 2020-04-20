@@ -6,10 +6,10 @@ import CarouselSection from "../components/CarouselSection";
 import Featured from "../components/Featured";
 import Footer from "../components/Footer";
 
-const DashboardContainer = () => {
+const DashboardContainer = (props) => {
   return (
     <Fragment>
-      <Header />
+      <Header {...props} />
       <Trending />
       <Recent />
       <CarouselSection />

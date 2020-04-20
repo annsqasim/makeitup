@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
 import TopBar from "./TopBar";
-import HeroHeader from "./HeroHeader";
+import HeroHeader from "../Hero/HeroHeader";
 
-const Header = () => {
+const Header = (props) => {
+  console.log("props", props);
+  const { location } = props;
+  const root = location && location.pathname === "/" ? true : false;
   return (
     <Fragment>
       <TopBar />
-      <HeroHeader />
+      {root ? <HeroHeader /> : ""}
     </Fragment>
   );
 };

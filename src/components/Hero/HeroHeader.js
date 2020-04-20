@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Container } from "@material-ui/core";
 import { Search } from "@material-ui/icons";
-import { HeroSection } from "./Header.styled";
+import { HeroSection } from "../Header/Header.styled";
 import HeroImage from "../../assets/img/Hero.png";
-import { HeroHeading, SearchField } from "./Header.styled";
+import { HeroHeading, SearchField } from "../Header/Header.styled";
 
 class HeroHeader extends Component {
   render() {
