@@ -12,7 +12,8 @@ export const FooterSection = styled.section`
     font-family: MaisonNeue-Medium;
     font-size: 14px;
     display: flex;
-    align-item: center;
+    align-items: center;
+    justify-content: space-around;
 
     p {
       display: flex;

@@ -25,7 +25,17 @@ export const HeroHeading = styled.h1`
 
   @media ${device.mobileS} {
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 1.1;
+  }
+
+  @media ${device.laptop} {
+    font-size: 60px;
+    line-height: 1.1;
+  }
+
+  @media ${device.laptopL} {
+    font-size: 60px;
+    line-height: 1.1;
   }
 `;
 

@@ -76,9 +76,11 @@ export const VideoContainer = styled.div`
 
   @media ${device.laptop} {
     position: relative;
+    width: 100%;
   }
 
   @media ${device.laptopL} {
     position: relative;
+    width: 100%;
   }
 `;
