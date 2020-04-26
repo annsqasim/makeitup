@@ -18,6 +18,27 @@ const options = {
   items: 4,
   nav: true,
   margin: 16,
+  navText: ["<", ">"],
+  responsive: {
+    0: {
+      items: 1,
+      dots: true,
+      nav: false,
+    },
+    480: {
+      item: 1,
+      dots: true,
+      nav: false,
+    },
+    768: {
+      item: 1,
+      dots: true,
+      nav: false,
+    },
+    1024: {
+      items: 3,
+    },
+  },
 };
 
 const events = {
@@ -38,7 +59,7 @@ export default class CarouselSection extends Component {
           <Grid container spacing={2}>
             <OwlCarousel options={options} events={events}>
               <Grid item lg={12}>
-                <Link href="#" onClick={this.preventDefault}>
+                <Link href="/details" onClick={this.preventDefault}>
                   <Videos>
                     <VidThumb>
                       <img src={vid1} alt="Recent1" />
@@ -51,7 +72,7 @@ export default class CarouselSection extends Component {
                 </Link>
               </Grid>
               <Grid item lg={12}>
-                <Link href="#" onClick={this.preventDefault}>
+                <Link href="/details" onClick={this.preventDefault}>
                   <Videos>
                     <VidThumb>
                       <img src={vid2} alt="Recent1" />
@@ -64,7 +85,7 @@ export default class CarouselSection extends Component {
                 </Link>
               </Grid>
               <Grid item lg={12}>
-                <Link href="#" onClick={this.preventDefault}>
+                <Link href="/details" onClick={this.preventDefault}>
                   <Videos>
                     <VidThumb>
                       <img src={vid3} alt="Recent1" />
@@ -77,7 +98,7 @@ export default class CarouselSection extends Component {
                 </Link>
               </Grid>
               <Grid item lg={12}>
-                <Link href="#" onClick={this.preventDefault}>
+                <Link href="/details" onClick={this.preventDefault}>
                   <Videos>
                     <VidThumb>
                       <img src={vid4} alt="Recent1" />

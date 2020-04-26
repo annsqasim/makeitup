@@ -24,7 +24,7 @@ export default class Recent extends Component {
         <Container>
           <Grid container spacing={2}>
             <Grid item lg={4}>
-              <Link href="#" onClick={this.preventDefault}>
+              <Link href="/details" onClick={this.preventDefault}>
                 <Videos>
                   <VidThumb>
                     <img src={Recent1} alt="Recent1" />
@@ -37,7 +37,7 @@ export default class Recent extends Component {
               </Link>
             </Grid>
             <Grid item lg={4}>
-              <Link href="#" onClick={this.preventDefault}>
+              <Link href="/details" onClick={this.preventDefault}>
                 <Videos>
                   <VidThumb>
                     <img src={Recent2} alt="Recent2" />
@@ -50,7 +50,7 @@ export default class Recent extends Component {
               </Link>
             </Grid>
             <Grid item lg={4}>
-              <Link href="#" onClick={this.preventDefault}>
+              <Link href="/details" onClick={this.preventDefault}>
                 <Videos>
                   <VidThumb>
                     <img src={Recent3} alt="Recent3" />

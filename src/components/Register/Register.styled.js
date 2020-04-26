@@ -1,11 +1,16 @@
 import styled from "styled-components";
 import RegisterBg from "../../assets/img/RegisterImg.jpg";
 import { TextField, Button } from "@material-ui/core";
+import { device } from "../../common/device";
 
 export const RegisterWrap = styled.section`
   background: #fcf0f2;
   min-height: 100vh;
   display: flex;
+
+  @media ${device.mobileS} {
+    min-height: 100vh;
+  }
 
   .registerImg {
     background-image: url(${RegisterBg});
@@ -19,6 +24,13 @@ export const RegisterWrap = styled.section`
       text-align: center;
       line-height: 200px;
       display: none;
+    }
+
+    @media ${device.mobileS} {
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      padding: 400px 0px;
     }
   }
 
@@ -47,7 +59,6 @@ export const RegisterWrap = styled.section`
 
 export const RegisterHeader = styled.div`
   background: #fcf0f2;
-  padding: 0rem 7rem;
 
   h1 {
     font-family: NoeDisplay-Medium;
@@ -65,6 +76,22 @@ export const RegisterHeader = styled.div`
     letter-spacing: 0;
     text-align: center;
     line-height: 32px;
+  }
+
+  @media ${device.mobileS} {
+    padding: 1.5rem;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media ${device.laptopL} {
+    padding: 0rem 7rem;
   }
 `;
 

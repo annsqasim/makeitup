@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import { device } from "../../common/device";
 
 export const RecentSection = styled.section`
   background: #fff;
   padding: 4rem 0rem;
+
+  @media ${device.mobileS} {
+    padding: 1.5rem 0rem;
+  }
 `;
 
 export const SectionHeading = styled.h1`

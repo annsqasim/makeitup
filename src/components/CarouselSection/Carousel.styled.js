@@ -1,8 +1,46 @@
 import styled from "styled-components";
+import { device } from "../../common/device";
 
 export const CarouselWrap = styled.section`
   background: #fff;
   padding: 4rem 0rem;
+
+  @media ${device.mobileS} {
+    padding: 1.5rem 0rem;
+  }
+
+  .owl-nav {
+    .owl-prev {
+      position: absolute;
+      top: 28%;
+      padding: 22px;
+      text-align: center;
+      border-radius: 50%;
+      left: 0px;
+      box-shadow: 5px 10px 50px 0 rgba(0, 0, 0, 0.2);
+      background: #fff;
+      left: -22px;
+
+      &.disabled {
+        display: none;
+      }
+    }
+
+    .owl-next {
+      position: absolute;
+      top: 28%;
+      padding: 22px;
+      text-align: center;
+      border-radius: 50%;
+      box-shadow: 5px 10px 50px 0 rgba(0, 0, 0, 0.2);
+      background: #fff;
+      right: -22px;
+
+      &.disabled {
+        display: none;
+      }
+    }
+  }
 `;
 
 export const SectionHeading = styled.h1`

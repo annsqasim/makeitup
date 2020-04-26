@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Button } from "@material-ui/core";
+import { device } from "../../common/device";
 
 export const FeaturedSection = styled.section`
   .wrap {
@@ -14,6 +15,10 @@ export const FeaturedSection = styled.section`
       text-align: center;
       color: #fff;
       padding: 0rem 2rem;
+
+      @media ${device.mobileS} {
+        padding: 2rem;
+      }
 
       h1 {
         font-family: NoeDisplay-Medium;

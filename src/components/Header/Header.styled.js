@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { AppBar, TextField } from "@material-ui/core";
+import { device } from "../../common/device";
 
 export const NavBar = styled(AppBar)`
   background-color: #fff !important;
@@ -12,6 +13,7 @@ export const HeroSection = styled.section`
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 `;
 
 export const HeroHeading = styled.h1`
@@ -20,6 +22,11 @@ export const HeroHeading = styled.h1`
   color: #ffffff;
   letter-spacing: 0;
   line-height: 68px;
+
+  @media ${device.mobileS} {
+    font-size: 30px;
+    line-height: 1.2;
+  }
 `;
 
 export const SearchField = styled(TextField)`

@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import { Grid, Container } from "@material-ui/core";
 import { DetailsSection, DetailsInfo, VideoContainer } from "./Details.styled";
 import HeartIcon from "../../assets/Icons/HeartIcon";
+import ReactPlayer from "react-player";
 
 class Details extends Component {
   render() {
     return (
       <DetailsSection>
         <Container>
-          <Grid container>
+          <Grid container className="details-head" spacing={3}>
             <Grid item lg={3}>
               <DetailsInfo>
                 <p className="category">Hair Style</p>
@@ -37,7 +38,16 @@ class Details extends Component {
               </DetailsInfo>
             </Grid>
             <Grid item lg={9}>
-              <VideoContainer />
+              <VideoContainer>
+                <ReactPlayer
+                  className="react-player"
+                  url="https://www.youtube.com/watch?v=NI7h5WOcixU"
+                  width="100%"
+                  height="100%"
+                  playing
+                  light
+                />
+              </VideoContainer>
             </Grid>
           </Grid>
         </Container>

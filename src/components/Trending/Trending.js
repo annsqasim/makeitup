@@ -23,7 +23,7 @@ class Trending extends Component {
         <Container>
           <Grid container spacing={2}>
             <Grid item lg={6}>
-              <Link href="#" onClick={this.preventDefault}>
+              <Link href="details" onClick={this.preventDefault}>
                 <Videos>
                   <VidThumb>
                     <img src={Trending1} alt="trending1" />
@@ -36,7 +36,7 @@ class Trending extends Component {
               </Link>
             </Grid>
             <Grid item lg={6}>
-              <Link href="#" onClick={this.preventDefault}>
+              <Link href="details" onClick={this.preventDefault}>
                 <Videos>
                   <VidThumb>
                     <img src={Trending2} alt="trending2" />

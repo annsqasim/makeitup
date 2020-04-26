@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../common/device";
 
 export const OwnerWrap = styled.section`
   background: #fcf0f2;
@@ -33,6 +34,27 @@ export const OwnerDetails = styled.div`
     margin-right: 1rem;
     padding: 0.5rem 3rem;
 
+    @media ${device.mobileS} {
+      display: block;
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 1rem;
+    }
+
+    @media ${device.laptop} {
+      display: initial;
+      width: auto;
+      margin-right: 1rem;
+      margin-bottom: 0px;
+    }
+
+    @media ${device.laptopL} {
+      display: initial;
+      width: auto;
+      margin-right: 1rem;
+      margin-bottom: 0px;
+    }
+
     &:hover {
       color: #ff0283;
       background: #ffffff;
@@ -48,6 +70,27 @@ export const OwnerDetails = styled.div`
     color: #ffffff;
     transition: all 0.3s ease-in;
     padding: 0.5rem 6rem;
+
+    @media ${device.mobileS} {
+      display: block;
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 1rem;
+    }
+
+    @media ${device.laptop} {
+      display: initial;
+      width: auto;
+      margin-right: 1rem;
+      margin-bottom: 0px;
+    }
+
+    @media ${device.laptopL} {
+      display: initial;
+      width: auto;
+      margin-right: 1rem;
+      margin-bottom: 0px;
+    }
 
     &:hover {
       color: #ff0283;
