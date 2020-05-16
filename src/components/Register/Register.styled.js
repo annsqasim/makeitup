@@ -92,6 +92,10 @@ export const RegisterHeader = styled.div`
 
   @media ${device.laptopL} {
     padding: 0rem 7rem;
+
+    h1 {
+      font-size: 46px;
+    }
   }
 `;
 

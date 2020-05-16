@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import { AppBar, TextField } from "@material-ui/core";
+import { AppBar, TextField, Button } from "@material-ui/core";
 import { device } from "../../common/device";
 
 export const NavBar = styled(AppBar)`
   background-color: #fff !important;
   color: #000 !important;
+  padding: 0.5rem 0rem;
 `;
 
 export const HeroSection = styled.section`
@@ -48,7 +49,6 @@ export const SearchField = styled(TextField)`
   color: #000000;
   letter-spacing: -0.09px;
   border: 2px solid #000000;
-  padding: 2rem;
 `;
 
 export const SectionHeading = styled.h1`
@@ -56,4 +56,22 @@ export const SectionHeading = styled.h1`
   font-size: 32px;
   color: #ffffff;
   letter-spacing: -0.18px;
+`;
+
+export const JoinButton = styled(Button)`
+  border: 1px solid #ff0283;
+  border-radius: 4px;
+  font-family: MaisonNeue-Medium;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 1;
+  padding: 0.7rem 1rem 0.5rem 1rem;
+  margin-left: 1rem;
+
+  &:hover {
+    background-color: #ff0283;
+    color: #fff;
+  }
 `;

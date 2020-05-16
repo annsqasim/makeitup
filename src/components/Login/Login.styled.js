@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TextField, Button, Link } from "@material-ui/core";
+import { TextField, Button } from "@material-ui/core";
 
 export const FormInputLabel = styled.label`
   font-family: MaisonNeue-Book;
@@ -47,7 +47,7 @@ export const FormSubmitButton = styled(Button)`
   margin: 2rem 0rem !important;
 `;
 
-export const ForgetPassword = styled(Link)`
+export const ForgetPassword = styled(Button)`
   display: block;
   font-family: MaisonNeue-Book;
   font-size: 14px;
